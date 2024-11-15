@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Michel">
+    <meta name="Description" content="Description de mon site">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BY MARCELINE - Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../assets/logo projet final.png" height="80"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./page1.html">Service traiteur</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./page2.html">Notre restaurant</a>
+                  </li>
+                  <li class="nav-item"></li>
+                    <a class="nav-link" href="./page3.html">A propos</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="menu-section" id="menu">
+            <h2 class="text-center">Bienvenue chez BY MARCELINE</h2>
+            <p class="text-center">Découvrez notre cuisine savoureuse et authentique.</p>
+            <div class="menu-grid" id="menuGrid">
+            </div>
+        </section>
+        
+    <section id="home" class="section-home">
+        <div class="home-content">
+            <h2>Bienvenue chez BY MARCELINE</h2>
+            <p>Découvrez notre cuisine savoureuse et authentique.</p>
+            <button onclick="scrollToSection('menu')">Voir le Menu</button>
+        </div>
+    </section>
+
+    
+    <section id="menu" class="section-menu">
+        <h2>Notre Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Thiebou dieune</h3>
+                <p>Le Thiebou dieune est sûrement un de nos plats favoris. Et vous, quel est le vôtre ? 😁</p>
+            </div>
+            <div class="menu-item">
+                <h3>Mafé</h3>
+                <p>Le mafé ou tiga dèguè na est une sauce à base de pâte d'arachide originaire du Mali, notamment des peuples Malinkés et Bambara.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Thiebou YAPP</h3>
+                <p>Le tiebou yapp, est un plat made in Sénégal, qui veut dire riz à la viande.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Athieké au Poisson</h3>
+                <p>L'attiéké est un mets traditionnel de la gastronomie ivoirienne obtenu par cuisson à la vapeur de semoule de pulpe de manioc fermentée.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Vermicelle Poulet</h3>
+                <p>Ce plat fait littéralement partie de mes recettes préférées! Les vermicelles au poulet viennent directement de St Louis, l'ancienne capitale sénégalaise.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <section id="gallery" class="section-gallery">
+        <h2>Galerie</h2>
+        <div class="gallery-images">
+            <img src="/assets/images.jpeg" alt="Thiebou dieune" width="200">
+            <img src="/assets/mafe.jpeg" alt="mafe" width="200">
+            <img src="/assets/thiebou yapp.jpeg" alt="thiebou yapp" width="200">
+            <img src="/assets/attieké poisson.jpg" alt="Athieké poisson" width="200">
+            <img src="/assets/vermicelle.jpeg" alt="Vermicelle poulet" width="200">
+            
+        </div>
+    </section>
+    </main>
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <footer class=" text-center text-lg-start mt-4">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">À propos</h5>
+                    <p class="text-white">
+                        Description
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h3>Horaires</h3>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <p class="text-white">Mardi - Samedi: 11h30 - 22h30</p>
+                        </li>
+                        <li>
+                            <p class="text-white">Dimanche: 11h30 - 16h00</p>
+                        </li>
+                        <li>
+                            <p class="text-white">Fermé le Lundi</p>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h3>Contactez-nous</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p class="text-white">📍 [Dakar Grand Yoff]</p>
+                        </li>
+                        <li>
+                            <p class="text-white">📞 +221 78 252 43 93</p>
+                        </li>
+                        <li>
+                            <p class="text-white">✉️ milkjo2001@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="text-center p-3">
+            © 2024 Copyright:
+            <a class="text-white" href="#">BYMARCELINE.com</a>
+            <link rel="stylesheet" href="/index.html">
+        </div>
+    </footer>
+</body>
+</html>
