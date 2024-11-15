@@ -5,7 +5,7 @@
     <meta name="author" content="Michel">
     <meta name="Description" content="Description de mon site">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BY MARCELINE - Service Traiteur</title>
+    <title>BY MARCELINE - Restaurant</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,77 +44,61 @@
           </nav>
     </header>
     <main>
+        <section class="menu-section" id="menu">
+            <h2 class="text-center">Bienvenue chez BY MARCELINE</h2>
+            <p class="text-center">Découvrez notre cuisine savoureuse et authentique.</p>
+            <div class="menu-grid" id="menuGrid">
+            </div>
+        </section>
         
     <section id="home" class="section-home">
         <div class="home-content">
             <h2>Bienvenue chez BY MARCELINE</h2>
-            <p>Votre partenaire idéal pour des événements réussis avec un service traiteur d'exception.</p>
-            <button onclick="scrollToSection('services')">Découvrir Nos Services</button>
-        </div>
-    </section>
-
-    
-    <section id="services" class="section-services">
-        <h2>Nos Services</h2>
-        <div class="service-items">
-            <div class="service-item">
-                <h3>Buffet & Service à Table</h3>
-                <p>Offrez à vos invités une expérience gastronomique unique, adaptée à vos besoins.</p>
-                <img src="/assets/buffet service traiteur.jpg" width="215" >
-            </div>
-            <div class="service-item">
-                <h3>Menu Personnalisé</h3>
-                <p>Créez un menu sur mesure en fonction de vos préférences et de vos exigences alimentaires.</p>
-                <img src="/assets/menu.webp" height="200" width="250">
-            </div>
+            <p>Découvrez notre cuisine savoureuse et authentique.</p>
+            <button onclick="scrollToSection('menu')">Voir le Menu</button>
         </div>
     </section>
 
     
     <section id="menu" class="section-menu">
-        <h2>Menu Traiteur</h2>
+        <h2>Notre Menu</h2>
         <div class="menu-items">
             <div class="menu-item">
-                <h3>Entrée : Salade Africane</h3>
-                <p>Une délicieuse entrée inspirée de saveurs africaines.</p>
-                <img src="/assets/salade af.jpg" height="80">
+                <h3>Thiebou dieune</h3>
+                <p>Le Thiebou dieune est sûrement un de nos plats favoris. Et vous, quel est le vôtre ? 😁</p>
             </div>
             <div class="menu-item">
-                <h3>Plat Principal : Poulet Yassa</h3>
-                <p>Un plat classique aux saveurs intenses, parfait pour toutes les occasions.</p>
-                <img src="/assets/yassa poulet.webp" height="80">
+                <h3>Mafé</h3>
+                <p>Le mafé ou tiga dèguè na est une sauce à base de pâte d'arachide originaire du Mali, notamment des peuples Malinkés et Bambara.</p>
             </div>
             <div class="menu-item">
-                <h3>Dessert : Gateau Opéra</h3>
-                <p>Le gâteau Opéra, ce sont deux couches de crème au beurre au café et une de ganache au chocolat</p>
-                <img src="/assets/gateau au chocolat.jpeg" heigh="80">
+                <h3>Thiebou YAPP</h3>
+                <p>Le tiebou yapp, est un plat made in Sénégal, qui veut dire riz à la viande.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Athieké au Poisson</h3>
+                <p>L'attiéké est un mets traditionnel de la gastronomie ivoirienne obtenu par cuisson à la vapeur de semoule de pulpe de manioc fermentée.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Vermicelle Poulet</h3>
+                <p>Ce plat fait littéralement partie de mes recettes préférées! Les vermicelles au poulet viennent directement de St Louis, l'ancienne capitale sénégalaise.</p>
             </div>
             
         </div>
     </section>
 
     
-    <section id="events" class="section-events">
-        <h2>Événements Couverts</h2>
-        <div class="event-items">
-            <div class="event-item">
-                <h3>Mariages</h3>
-                <p>Faites de votre grand jour un événement mémorable avec notre service traiteur.</p>
-                <img src="/assets/mariage.jpeg" width="200">
-            </div>
-            <div class="event-item">
-                <h3>Bapteme</h3>
-                <p>Des options sur mesure pour impressionner vos invités.</p>
-                <img src="/assets/baptem.webp" width="220" height="160">
-            </div>
-            <div class="event-item">
-                <h3>Divers</h3>
-                <p>Des options sur mesure pour impressionner vos invités.</p>
-                <img src="/assets/divers.jpeg" ="">
-            </div>
+    <section id="gallery" class="section-gallery">
+        <h2>Galerie</h2>
+        <div class="gallery-images">
+            <img src="/assets/images.jpeg" alt="Thiebou dieune" width="200">
+            <img src="/assets/mafe.jpeg" alt="mafe" width="200">
+            <img src="/assets/thiebou yapp.jpeg" alt="thiebou yapp" width="200">
+            <img src="/assets/attieké poisson.jpg" alt="Athieké poisson" width="200">
+            <img src="/assets/vermicelle.jpeg" alt="Vermicelle poulet" width="200">
+            
         </div>
     </section>
-    <h3 class="text-center">Pour plus d'infos veillez nous contacter</h3>
     </main>
     <script src="../js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
